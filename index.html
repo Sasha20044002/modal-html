@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <style>
+        body{
+            width: 100%;
+            height: 100%;
+        }
+        #my-modal{
+            width: 100%;
+            height: 100%;
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content{
+            width: 200px;
+            height: 200px;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <a href="#" class="btn">Создать модалку</a>
+    <div id="my-modal">
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptates minima atque. Velit eligendi hic, reprehenderit, harum recusandae omnis cumque dolores sunt, veniam doloremque facilis odit ab dolore iure officia.</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
